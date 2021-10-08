@@ -1,11 +1,11 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
 from . import util
 
 import markdown2
 from markdown2 import Markdown
-from django import forms
+
+
 
 
 def index(request):
